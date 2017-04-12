@@ -1,2 +1,3 @@
 # VkHideAds
-Скрыть рекламу на vk.com
+Greasymonkey script to hide adverstment on vk.com
+
