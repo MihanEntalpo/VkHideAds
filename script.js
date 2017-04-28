@@ -15,9 +15,9 @@
     function seek_and_destroy()
     {
         //Удаляем блоки "Рекламная запись"
-        $('.wall_text_name_explain_promoted_post.post_link').parents(".feed_row").remove();
+        $('.wall_text_name_explain_promoted_post.post_link').parents(".feed_row,.post").remove();
         //Удаляем блоки "Реклама в сообществе ... "
-        $('.wall_marked_as_ads').parents(".feed_row").remove();
+        $('.wall_marked_as_ads').parents(".feed_row,.post").remove();
         //Удаляем рекламные блоки слева
         $("#ads_left").remove();
     }
